@@ -102,7 +102,8 @@ public class Program
             {
                 Console.WriteLine("4. Rediger i Pokédexet");
             }
-            Console.Write("5. Afslut programmet: ");
+            Console.WriteLine("5. Afslut programmet");
+            Console.Write("Tast en tast mellem 1-5: ");
             string menuChoice = Console.ReadLine()?.Trim(); // Hent brugerens valg som en streng
 
             // Tjek om brugerens input er en af de gyldige muligheder

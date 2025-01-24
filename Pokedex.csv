@@ -2,7 +2,10 @@ id,name,type,strength
 1,Bulbasaur,Grass/Poison,318
 2,Charmander,Fire,309
 3,Squirtle,Water,314  
-4,Pik,El,123
-5,Jigglypuff,Normal/Fairy,270  
-6,Meow,Normal,290  
-7,Psyduck,Water,320
+4,Jigglypuff,Normal/Fairy,270  
+5,Meow,Normal,290  
+6,Psyduck,Water,320
+7,Pikachu,Electricity,332
+8,Gengar,Ghost,352
+9,Grumpig,Psychic,432
+10,Diglett,Ground,576

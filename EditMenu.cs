@@ -85,13 +85,13 @@ class Add
             Console.WriteLine("Tilføj en Pokémon:");
 
             // Indtast Pokémon oplysninger
-            Console.Write("Indtast Pokémons Navn: ");
+            Console.Write("Indtast din Pokémons Navn: ");
             name = Console.ReadLine();
 
-            Console.Write("Indtast Pokémons Type: ");
+            Console.Write("Indtast din Pokémons Type: ");
             type = Console.ReadLine();
 
-            Console.Write("Indtast Pokémons Styrke: ");
+            Console.Write("Indtast din Pokémons Styrke: ");
             strength = Console.ReadLine();
 
             // Hvis styrken er et gyldigt tal, fortsæt
@@ -246,7 +246,7 @@ class Edit
             // Fortsæt indtil brugeren laver et gyldigt valg
             while (!validChoice)
             {
-                Console.Write("\nVælg Pokémon at redigere (nummer): ");
+                Console.Write("\nVælg den Pokemon du vil redigere i, ud fra det tal der står foran den: ");
                 string userInput = Console.ReadLine();
 
                 if (int.TryParse(userInput, out choice) && choice >= 1 && choice <= matchingPokemons.Length)
